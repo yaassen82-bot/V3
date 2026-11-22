@@ -1,7 +1,7 @@
 import { kv } from '@vercel/kv';
 
 // قائمة المفاتيح المسموح بها فقط
-const VALID_KEYS = ["hgfdhlokdh"];
+const VALID_KEYS = ["activation-v3"];
 
 export default async function handler(req, res) {
     // إعدادات الـ CORS
